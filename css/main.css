@@ -1,0 +1,280 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+ 
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  
+}
+.key h1{
+  font-size: 2.5rem;
+  
+}
+
+.title_key{
+    border: solid 4px #ED1C24;
+    width: 35%;
+    position: relative;
+    top: 140px;
+     padding: 0px 40px 30px 40px;    
+ 
+}
+
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*-------------------------------------------------*/
+/* css de la section 'Concept' */
+.float_img{
+    display: flex;
+    justify-content: space-between;
+}
+.float_img img{
+    width: 340px;
+}
+.float_img p{
+    line-height: 25px;
+}
+
+/*-------------------------------------------------*/
+/*Images de fond du Menu*/
+.bg_menu{
+    background: url("../images/sample_menu_bg.jpg")
+     no-repeat fixed 100% bottom;
+  
+}
+
+/*------------------------------------------------------------------*/
+/* disposition des elements de menu*/
+.dispo_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------------------------------------------------------------------*/
+/*css de liste de la section recommande menu*/
+.list_menu{
+    width: 49%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+/* ---------------------------------------------------------------------------*/
+/* css des textes de la section recommanded menu */
+.elt_menu{
+    display: flex;
+    justify-content: stretch;
+    width: 45%;
+    height: 50hv;
+    background: rgba(255,255, 255);
+    flex-wrap: wrap;
+    padding-left: 20px;
+    color: gray;
+   
+}
+
+/* ---------------------------------------------------------------------------*/
+/*css des images figurant dans la section recommanded menu*/
+.elt_img{
+    display: flex;
+    width: 55%;
+    height: 50hv;
+    
+} 
+
+/* ---------------------------------------------------------------------------*/
+/* css du montant "yen" de la section recommanded menu*/
+ .list_menu .yen_menu{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 72%;
+    padding-bottom: 20px;
+    color: #42210b;
+    font-weight: 400;
+    
+}
+
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+
+/*-------------------------------------------------*/
+/*------css de la section coffee menu----*/
+.caffee_menu_image {
+  display: flex;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.elt_coffee_menu{
+    display: flex;
+    justify-content: stretch;
+    width: 80%;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.elt_coffee_menu h2{
+    color: rgba(0,0,0,.8);
+    font-weight: 400;
+}
+.dispo_coffee_menu{
+    display: flex;
+   justify-content: space-between;
+   padding: 20px;
+    
+   
+}
+/*----------------------------------*/
+/*---couleur de fond des elements du coffe menu---*/
+ .bg_coffee_menu {
+    background: #fff;
+    padding: 2px;
+ 
+}
+
+/*-------------------------------------------------*/
+/*---Bordure des elements du coffe menu---*/
+.background_coffee_menu{
+    background-color: #fff;
+    border: solid 20px #9CFF79;
+    width: 100%;
+    padding: 20px;
+
+}
+
+/*-------------------------------------------------*/
+/*---css du  yen de coffee menu---*/
+.elt_coffee_menu .yen_coffee_menu{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 100%;
+
+}
+
+/*--------------------------------------------------*/
+/*---css  pour la section ACCESS---*/
+.heure_adresse{
+    display: inline-block; 
+    width: 100%;
+    height: 100hv;
+    
+}
+.def_list{
+    display: flex;
+    align-items: stretch;
+}
+.def_data_dd{
+    display: flex;
+    margin: 0px 5%;
+    align-items: center;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------------*/
+/*---css pour le pied de page "footer"---*/
+footer{
+    background: #251e19;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+   
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+footer .footer_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 5px;
+  
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 0.7em;
+}
